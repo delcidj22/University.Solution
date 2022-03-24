@@ -11,6 +11,8 @@ namespace University.Models
 
     public int CourseId { get; set; }
     public string Name { get; set; }
+
+    // public boolean IsComplete {get; set;}
     public virtual ICollection<DepartmentCourseStudent> DepartmentCourseStudentEntity { get; set; }
   }
 }
